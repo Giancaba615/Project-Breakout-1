@@ -61,11 +61,48 @@ namespace Project_Breakout.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _167685__cris__footsteps_in_a_concrete_corridor_1 {
+            get {
+                return ResourceManager.GetStream("_167685__cris__footsteps_in_a_concrete_corridor_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _448357__explosivetamale__rapid_footsteps_upon_gravel {
+            get {
+                return ResourceManager.GetStream("_448357__explosivetamale__rapid_footsteps_upon_gravel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _583563__lost_dream__wandering {
+            get {
+                return ResourceManager.GetStream("_583563__lost_dream__wandering", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap black_and_white {
+        internal static System.Drawing.Bitmap Bluerays_Image {
             get {
-                object obj = ResourceManager.GetObject("black-and-white", resourceCulture);
+                object obj = ResourceManager.GetObject("Bluerays_Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Doorway_image {
+            get {
+                object obj = ResourceManager.GetObject("Doorway_image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,6 +120,16 @@ namespace Project_Breakout.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap guard_image {
+            get {
+                object obj = ResourceManager.GetObject("guard_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hector_image {
             get {
                 object obj = ResourceManager.GetObject("Hector image", resourceCulture);
@@ -93,9 +140,39 @@ namespace Project_Breakout.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap metal_door_3 {
+            get {
+                object obj = ResourceManager.GetObject("metal_door_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nitrogen_tanks_1_of_1 {
+            get {
+                object obj = ResourceManager.GetObject("Nitrogen_tanks_1_of_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ProjectBreakout_Logo {
             get {
                 object obj = ResourceManager.GetObject("ProjectBreakout Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap straiway_Image {
+            get {
+                object obj = ResourceManager.GetObject("straiway_Image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

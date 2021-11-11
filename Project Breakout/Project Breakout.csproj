@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -91,6 +93,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Hector image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-and-white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bluerays.Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doorway image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guard image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metal-door-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nitrogen-tanks-1-of-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\straiway.Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\167685__cris__footsteps-in-a-concrete-corridor-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\448357__explosivetamale__rapid-footsteps-upon-gravel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\583563__lost-dream__wandering.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
