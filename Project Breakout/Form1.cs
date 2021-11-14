@@ -453,7 +453,7 @@ namespace Project_Breakout
                 case 27:
                     questionLabel.Text = "You tried to lockpick the door which took over 10 minutes of your \neffort and failed miserably and got caught after the multiple attempts. Play again?  ";
                     buttonLabel1.Text = "Yes";
-                    buttonLabel2.Text = "No";//test
+                    buttonLabel2.Text = "No";
                     buttonLabel3.Text = "Try";
 
                     SoundPlayer TaskFailed_4 = new SoundPlayer(Properties.Resources.lost_dream_sound);
