@@ -124,5 +124,59 @@
   <ItemGroup>
     <None Include="Resources\583563__lost-dream__wandering.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\270474__littlerobotsoundfactory__scream-male-03.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ty for Playing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403057__vesperia94__hooray.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Window.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mission Failed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\587185__derplayer__explosion-01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walkaway.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bomb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BombExplode.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chracter die.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Explosion.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footsteps Concrete.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Footsteps.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hooray.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lost dream sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\you died.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FailedEffect.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
