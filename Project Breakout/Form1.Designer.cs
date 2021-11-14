@@ -33,7 +33,7 @@
             this.questionLabel = new System.Windows.Forms.Label();
             this.photoImage = new System.Windows.Forms.PictureBox();
             this.photoImage2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonLabel3 = new System.Windows.Forms.Button();
             this.photoImage3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.photoImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.photoImage2)).BeginInit();
@@ -45,7 +45,7 @@
             this.buttonLabel1.BackColor = System.Drawing.Color.Transparent;
             this.buttonLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLabel1.ForeColor = System.Drawing.Color.Red;
-            this.buttonLabel1.Location = new System.Drawing.Point(12, 308);
+            this.buttonLabel1.Location = new System.Drawing.Point(2, 75);
             this.buttonLabel1.Name = "buttonLabel1";
             this.buttonLabel1.Size = new System.Drawing.Size(101, 38);
             this.buttonLabel1.TabIndex = 0;
@@ -57,7 +57,7 @@
             // 
             this.buttonLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.buttonLabel2.Location = new System.Drawing.Point(12, 384);
+            this.buttonLabel2.Location = new System.Drawing.Point(2, 178);
             this.buttonLabel2.Name = "buttonLabel2";
             this.buttonLabel2.Size = new System.Drawing.Size(101, 38);
             this.buttonLabel2.TabIndex = 1;
@@ -76,48 +76,47 @@
             this.questionLabel.Size = new System.Drawing.Size(31, 15);
             this.questionLabel.TabIndex = 2;
             this.questionLabel.Text = "0000";
-            this.questionLabel.Click += new System.EventHandler(this.questionLabel_Click);
             // 
             // photoImage
             // 
             this.photoImage.BackColor = System.Drawing.Color.Transparent;
-            this.photoImage.Location = new System.Drawing.Point(12, 46);
+            this.photoImage.Location = new System.Drawing.Point(109, 57);
             this.photoImage.Name = "photoImage";
-            this.photoImage.Size = new System.Drawing.Size(597, 256);
+            this.photoImage.Size = new System.Drawing.Size(366, 206);
             this.photoImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.photoImage.TabIndex = 3;
             this.photoImage.TabStop = false;
-            this.photoImage.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // photoImage2
             // 
             this.photoImage2.BackColor = System.Drawing.Color.Transparent;
             this.photoImage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.photoImage2.Location = new System.Drawing.Point(119, 315);
+            this.photoImage2.Location = new System.Drawing.Point(481, 178);
             this.photoImage2.Name = "photoImage2";
-            this.photoImage2.Size = new System.Drawing.Size(209, 107);
+            this.photoImage2.Size = new System.Drawing.Size(141, 85);
             this.photoImage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.photoImage2.TabIndex = 4;
             this.photoImage2.TabStop = false;
             // 
-            // button1
+            // buttonLabel3
             // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button1.Location = new System.Drawing.Point(12, 352);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 28);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "TRY";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonLabel3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.buttonLabel3.Location = new System.Drawing.Point(2, 135);
+            this.buttonLabel3.Name = "buttonLabel3";
+            this.buttonLabel3.Size = new System.Drawing.Size(101, 28);
+            this.buttonLabel3.TabIndex = 5;
+            this.buttonLabel3.Text = "TRY";
+            this.buttonLabel3.UseVisualStyleBackColor = true;
+            this.buttonLabel3.Click += new System.EventHandler(this.buttonLabel3_Click);
             // 
             // photoImage3
             // 
             this.photoImage3.BackColor = System.Drawing.Color.Transparent;
             this.photoImage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.photoImage3.Location = new System.Drawing.Point(119, 315);
+            this.photoImage3.Location = new System.Drawing.Point(481, 57);
             this.photoImage3.Name = "photoImage3";
-            this.photoImage3.Size = new System.Drawing.Size(209, 107);
+            this.photoImage3.Size = new System.Drawing.Size(141, 116);
             this.photoImage3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.photoImage3.TabIndex = 6;
             this.photoImage3.TabStop = false;
@@ -129,9 +128,9 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = global::Project_Breakout.Properties.Resources.Bluerays_Image;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(820, 434);
+            this.ClientSize = new System.Drawing.Size(632, 271);
             this.Controls.Add(this.photoImage3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonLabel3);
             this.Controls.Add(this.photoImage2);
             this.Controls.Add(this.photoImage);
             this.Controls.Add(this.questionLabel);
@@ -154,7 +153,7 @@
         private System.Windows.Forms.Label questionLabel;
         private System.Windows.Forms.PictureBox photoImage;
         private System.Windows.Forms.PictureBox photoImage2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonLabel3;
         private System.Windows.Forms.PictureBox photoImage3;
     }
 }

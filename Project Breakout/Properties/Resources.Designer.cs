@@ -61,33 +61,6 @@ namespace Project_Breakout.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _167685__cris__footsteps_in_a_concrete_corridor_1 {
-            get {
-                return ResourceManager.GetStream("_167685__cris__footsteps_in_a_concrete_corridor_1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _448357__explosivetamale__rapid_footsteps_upon_gravel {
-            get {
-                return ResourceManager.GetStream("_448357__explosivetamale__rapid_footsteps_upon_gravel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream _583563__lost_dream__wandering {
-            get {
-                return ResourceManager.GetStream("_583563__lost_dream__wandering", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Bluerays_Image {
@@ -100,9 +73,38 @@ namespace Project_Breakout.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Doorway_image {
+        internal static System.Drawing.Bitmap Bomb {
             get {
-                object obj = ResourceManager.GetObject("Doorway_image", resourceCulture);
+                object obj = ResourceManager.GetObject("Bomb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BombExplode {
+            get {
+                object obj = ResourceManager.GetObject("BombExplode", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream chracter_die {
+            get {
+                return ResourceManager.GetStream("chracter_die", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Doorway {
+            get {
+                object obj = ResourceManager.GetObject("Doorway", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -114,6 +116,51 @@ namespace Project_Breakout.Properties {
             get {
                 object obj = ResourceManager.GetObject("Ethan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Explosion {
+            get {
+                return ResourceManager.GetStream("Explosion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream FailedEffect {
+            get {
+                return ResourceManager.GetStream("FailedEffect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream FailedEffect1 {
+            get {
+                return ResourceManager.GetStream("FailedEffect1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Footsteps {
+            get {
+                return ResourceManager.GetStream("Footsteps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream footsteps_Concrete {
+            get {
+                return ResourceManager.GetStream("footsteps_Concrete", resourceCulture);
             }
         }
         
@@ -130,9 +177,46 @@ namespace Project_Breakout.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Hector_image {
+        internal static System.Drawing.Bitmap Hector {
             get {
-                object obj = ResourceManager.GetObject("Hector image", resourceCulture);
+                object obj = ResourceManager.GetObject("Hector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Hooray {
+            get {
+                return ResourceManager.GetStream("Hooray", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream lost_dream_sound {
+            get {
+                return ResourceManager.GetStream("lost_dream_sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream male_Scream {
+            get {
+                return ResourceManager.GetStream("male Scream", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap metal_door {
+            get {
+                object obj = ResourceManager.GetObject("metal_door", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -140,9 +224,9 @@ namespace Project_Breakout.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap metal_door_3 {
+        internal static System.Drawing.Bitmap Mission_Failed {
             get {
-                object obj = ResourceManager.GetObject("metal_door_3", resourceCulture);
+                object obj = ResourceManager.GetObject("Mission_Failed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -150,9 +234,9 @@ namespace Project_Breakout.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Nitrogen_tanks_1_of_1 {
+        internal static System.Drawing.Bitmap Nitrogen_tanks {
             get {
-                object obj = ResourceManager.GetObject("Nitrogen_tanks_1_of_1", resourceCulture);
+                object obj = ResourceManager.GetObject("Nitrogen_tanks", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -170,9 +254,59 @@ namespace Project_Breakout.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap straiway_Image {
+        internal static System.Drawing.Bitmap straiway {
             get {
-                object obj = ResourceManager.GetObject("straiway_Image", resourceCulture);
+                object obj = ResourceManager.GetObject("straiway", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ty_for_Playing {
+            get {
+                object obj = ResourceManager.GetObject("ty_for_Playing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vent {
+            get {
+                object obj = ResourceManager.GetObject("Vent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap walkaway {
+            get {
+                object obj = ResourceManager.GetObject("walkaway", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Window {
+            get {
+                object obj = ResourceManager.GetObject("Window", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap you_died {
+            get {
+                object obj = ResourceManager.GetObject("you_died", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
