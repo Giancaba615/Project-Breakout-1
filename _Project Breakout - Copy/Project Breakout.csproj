@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CC0BF9F-B383-43FE-982D-CF1328FC101B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_Breakout</RootNamespace>
+    <AssemblyName>Project Breakout</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProjectBreakout Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-and-white1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ethan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hector image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-and-white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bluerays.Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doorway image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guard image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metal-door-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nitrogen-tanks-1-of-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\straiway.Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\167685__cris__footsteps-in-a-concrete-corridor-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\448357__explosivetamale__rapid-footsteps-upon-gravel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\583563__lost-dream__wandering.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\270474__littlerobotsoundfactory__scream-male-03.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ty for Playing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403057__vesperia94__hooray.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Window.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mission Failed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\587185__derplayer__explosion-01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walkaway.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bomb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BombExplode.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chracter die.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Explosion.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footsteps Concrete.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Footsteps.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hooray.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lost dream sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\you died.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FailedEffect.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

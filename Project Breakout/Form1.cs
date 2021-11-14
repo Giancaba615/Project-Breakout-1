@@ -42,6 +42,9 @@ namespace Project_Breakout
             else if (page == 20) { page = 1;}
             else if (page == 22) { page = 1;}
             else if (page == 21) { page = 1; }
+            else if (page == 23) { page = 1; }
+            else if (page == 24) { page = 1; }
+            else if (page == 25) { page = 1; }
 
             if (page == 15)
             {
@@ -86,8 +89,11 @@ namespace Project_Breakout
             else if (page == 16) { page = 99;}
             else if (page == 18) { page = 22;}
             else if (page == 20) { page = 99;}
-            else if (page == 21) { page = 99; }
             else if (page == 22) { page = 99;}
+            else if (page == 21) { page = 99;}
+            else if (page == 23) { page = 99; }
+            else if (page == 24) { page = 99; }
+            else if (page == 25) { page = 99; }
 
             else if (page == 3)  { page = 5;}
             else if (page == 5)  { page = 99;}
@@ -105,13 +111,12 @@ namespace Project_Breakout
 
         private void buttonLabel3_Click(object sender, EventArgs e)
         {
-             if (page == 6) { page = 23; }      
-            else if (page == 23) { page = 99; }
-            else if (page == 14) { page = 25; }
-            else if (page == 25) { page = 99; }
-            else if (page == 11) { page = 27; }
-            else if (page == 27) { page = 99; }
+             if (page == 6) { page = 24; }                 
+            else if (page == 14) { page = 25; }          
+            else if (page == 11) { page = 23; }
            
+
+
 
             DisplayPage();
 
@@ -171,7 +176,7 @@ namespace Project_Breakout
                     questionLabel.Text = " You stayed in your room for a while, but suddenly you heard an \nexplosion outside of your room. Would you like to check or not ? ";
                     buttonLabel1.Text = "Yes";
                     buttonLabel2.Text = "No";
-                    buttonLabel3.Visible = false;
+                    buttonLabel3.Visible = true;
 
                     SoundPlayer Explode = new SoundPlayer(Properties.Resources.Explosion);
                    Explode.Play();
@@ -222,7 +227,7 @@ namespace Project_Breakout
                     questionLabel.Text = " You check the upper floor and heard another explosion along the way. Do you wish to check ? ";
                     buttonLabel1.Text = "Yes";
                     buttonLabel2.Text = "No";
-                    buttonLabel3.Visible = false;
+                    buttonLabel3.Visible = true;
 
                     SoundPlayer Kaboom_3 = new SoundPlayer(Properties.Resources.Explosion);
                     Kaboom_3.Play();
@@ -351,7 +356,7 @@ namespace Project_Breakout
                     questionLabel.Text = "You are now inside the facility and headed towards the room that contains the \nNitrogen tanks, but the doors for that room was locked. Do you wish to break it ? ";
                     buttonLabel1.Text = "Yes";
                     buttonLabel2.Text = "No";
-                    buttonLabel3.Visible = false;
+                    buttonLabel3.Visible = true;
 
                     SoundPlayer SoundPlayer_2 = new SoundPlayer(Properties.Resources.lost_dream_sound);
                     SoundPlayer_2.Play(); 
@@ -424,11 +429,11 @@ namespace Project_Breakout
                     photoImage3.Image = (Properties.Resources.Hector);
 
                     break;
-                case 23:
+                case 24:
                     questionLabel.Text = "You ignored what was happening outside and you continue to do your research, \nbut for a while the ceiling started to collapsed and crushed you to your death. Play again?  ";
                     buttonLabel1.Text = "Yes";
                     buttonLabel2.Text = "No";
-                    buttonLabel3.Text = "Try";
+                    
                     SoundPlayer TaskFailed_2 = new SoundPlayer(Properties.Resources.lost_dream_sound);
                     TaskFailed_2.Play();
 
@@ -440,7 +445,7 @@ namespace Project_Breakout
                     questionLabel.Text = "You sprinted your way up the floor, but you tripped and fall over 10 \nsteps that broke your neck that cause you your death. Play again?";
                     buttonLabel1.Text = "Yes";
                     buttonLabel2.Text = "No";
-                    buttonLabel3.Text = "Try";
+                   
 
                     SoundPlayer TaskFailed_3 = new SoundPlayer(Properties.Resources.lost_dream_sound);
                     TaskFailed_3.Play();
@@ -450,17 +455,17 @@ namespace Project_Breakout
 
                     break;
 
-                case 27:
+                case 23:
                     questionLabel.Text = "You tried to lockpick the door which took over 10 minutes of your \neffort and failed miserably and got caught after the multiple attempts. Play again?  ";
                     buttonLabel1.Text = "Yes";
                     buttonLabel2.Text = "No";
-                    buttonLabel3.Text = "Try";
+                    
 
                     SoundPlayer TaskFailed_4 = new SoundPlayer(Properties.Resources.lost_dream_sound);
                     TaskFailed_4.Play();
 
                     photoImage.Image = (Properties.Resources.metal_door);
-                    photoImage2.Image = (Properties.Resources.Hector);
+                   // photoImage2.Image = (Properties.Resources.Hector);
 
                     break;
                 case 101:
